@@ -1,0 +1,38 @@
+/* Setting the background color of the body to tan */
+body {
+    background-color: tan;
+  }
+  
+  /* Style for h1 elements - set the color to grey */
+  h1 {
+    color: grey;
+  }
+  
+  /* Styles for the maindiv class */
+  .maindiv {
+    /* Setting the background color to white */
+    background-color: white;
+    /* Setting the text color to black */
+    color: black;
+    /* Setting the width of the maindiv to 300 pixels */
+    width: 300px;
+    /* Adding padding around the maindiv */
+    padding: 20px;
+    /* Adding rounded corners to the maindiv */
+    border-radius: 25px;
+    /* Center the text within the maindiv */
+    text-align: center;
+    position:relative;
+    left:40%;
+    top:200px;
+  }
+  
+  /* Styles for the footer element */
+  footer {
+    /* Position the footer element relatively */
+    position: relative;
+    /* Set the left offset to 20 pixels */
+    left: 42%;
+    top:210px;
+  }
+  

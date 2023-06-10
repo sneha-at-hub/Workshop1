@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="maindiv">
+    <h1>Simple Interest Calculator</h1>
+
+    <div>
+        <!-- prompt the user the principal amount -->
+        Amount <input type="number"  id="principal">  <br/>
+        
+        <!-- prompt the user rate value in range slider -->
+        Rate <input type="range" min="1" max="20" value="10.25" step="0.25"  id="rate">
+        <span id="rate_val" onchange="updateRate()">10.25</span> %<br/>
+        
+        <!-- Dropdown for selecting the number of years -->
+        No. of Years 
+        <select id="years">
+            <option></option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>  <br/>
+        
+        <!-- Displaying the  area for the computed interest -->
+        Interest : <span id="result"></span><br><br>
+
+        <!-- Button to compute the interest -->
+        <button onclick="compute()">Compute Interest</button>
+    </div>
+   </div>
+   
+   <!-- Footer section -->
+   <footer>
+    <p>&copy; The calculator belongs to Sneha Tamang</p>
+   </footer>
+    
+    <!-- Script file for JavaScript logic -->
+    <script src="script.js"></script>
+</body>
+</html>
